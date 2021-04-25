@@ -1,0 +1,85 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#content {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 0%;
+    padding-top: 10px;
+    height: 100%;
+    text-align: justify;
+    background-color: #ffffff9a;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Container holding the image and the text */
+.container-st {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 17%;
+}
+
+.container-dr {
+  position: relative;
+  margin-top: 100px;
+  margin-right: 17%;
+  float: right;
+  align-items: flex-end;
+}
+
+/* Bottom right text */
+.text-block-st {
+  position: absolute;
+  bottom: 50px;
+  left: 170px;
+  background-color: black;
+  color: white;
+  width: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block-dr {
+  position: absolute;
+  bottom: 50px;
+  right: 170px;
+  width: 350%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
