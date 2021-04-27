@@ -1,0 +1,77 @@
+.br1 {
+    position: relative;
+    width: 50%;
+}
+
+
+/* Make the image responsive */
+
+.br1 img {
+    width: 40%;
+    height: auto;
+}
+
+
+/* Style the button and place it in the middle of the container/image */
+
+.br1 .btn {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(85, 85, 85, 0);
+    padding: 150px 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 150px;
+}
+
+.container .btn:hover {
+    background-color: rgba(95, 95, 95, 0.329);
+}
+
+
+/*______________END OF BROASCA1_____________*/
+
+
+/* Container holding the image and the text */
+
+.container-st {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 17%;
+}
+
+.container-dr {
+    position: relative;
+    margin-top: 100px;
+    margin-right: 17%;
+    float: right;
+    align-items: flex-end;
+}
+
+
+/* Bottom right text */
+
+.text-block-st {
+    position: absolute;
+    bottom: 80px;
+    left: 230px;
+    background-color: rgb(37, 54, 38);
+    color: white;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-dr {
+    position: absolute;
+    bottom: 100px;
+    right: 230px;
+    width: 500px;
+    background-color: rgb(37, 54, 38);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
