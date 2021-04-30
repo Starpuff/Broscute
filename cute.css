@@ -72,7 +72,7 @@
 }
 
 body {
-    background-image: url("forg bg.webp");
+    background-image: url("foto/forg\ bg1.png");
 }
 
 
@@ -83,7 +83,8 @@ body {
     margin-right: 12%;
     margin-top: 0%;
     padding-top: 10px;
-    height: 150%;
+    height: max-content;
+    padding-bottom: 50px;
     text-align: justify;
     background-color: #ffffffea;
     padding-left: 8%;
