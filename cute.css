@@ -26,7 +26,7 @@
 }
 
 .navbar a.active {
-    background-color: #a2c71e;
+    background-color: #c7401e;
     color: white;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -334,7 +334,7 @@ h1 {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgb(159, 196, 58); /* Set a background color */
+    background-color: rgb(196, 74, 58); /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
